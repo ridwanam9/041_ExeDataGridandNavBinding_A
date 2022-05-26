@@ -23,5 +23,11 @@ namespace Exercisepabd_databinding
             this.mahasiswaTableAdapter.Fill(this.prodiTIDataSet.Mahasiswa);
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            new Form2().Show();
+            this.Hide();
+        }
     }
 }
