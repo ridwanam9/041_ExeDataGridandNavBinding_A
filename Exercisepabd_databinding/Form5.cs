@@ -32,6 +32,7 @@ namespace Exercisepabd_databinding
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             new Form3().Show();
+            this.Hide();
         }
     }
 }
